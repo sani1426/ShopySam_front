@@ -1,12 +1,12 @@
-// import Navigationbar from "@/components/shared/navbar";
-import Topbar from "@/components/shared/topbar";
+import Navigationbar from "@/components/shared/navbar";
+
 
 
 export default function RootLayout({ children }) {
   return (
     <>
-      {/* <Navigationbar /> */}
-      <Topbar />
+      <Navigationbar />
+ 
       <main>{children}</main>
     </>
   )
