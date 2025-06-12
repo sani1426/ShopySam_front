@@ -2,8 +2,8 @@
 
 function Navigationbar() {
   return (
-        <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary py-3">
-        <div className="container-fluid">
+        <nav className="navbar fixed-top navbar-expand-lg py-3">
+        <div className="container">
           <a className="navbar-brand" href="#">Navbar</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
             <span className="navbar-toggler-icon"></span>
