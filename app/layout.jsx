@@ -1,14 +1,20 @@
 import { Poppins, Montserrat_Alternates } from "next/font/google";
 import "./globals.css";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
+  weight : ['100' , '200' , '300' , '400' , '500' , '600' , '700' , '800' , '900']
 });
 
 const montserrat = Montserrat_Alternates({
   variable: "--font-montserrat",
   subsets: ["latin"],
+  weight : ['100' , '200' , '300' , '400' , '500' , '600' , '700' , '800' , '900']
 });
 
 export const metadata = {
