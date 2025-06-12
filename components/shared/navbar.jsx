@@ -1,20 +1,21 @@
+import Link from "next/link";
 
 
 function Navigationbar() {
   return (
         <nav className="navbar fixed-top navbar-expand-lg py-3">
         <div className="container">
-          <a className="navbar-brand" href="#">Navbar</a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
+          <Link className="navbar-brand" href="/">Navbar</Link>
+          <button className="navbar-toggler" type="button"  >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse" >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active"  href="#">Home</a>
+                <Link className="nav-link active"  href="/">Home</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">link</a>
+                <Link className="nav-link" href="#">link</Link>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -28,7 +29,7 @@ function Navigationbar() {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a className="nav-link disabled" >Disabled</a>
               </li>
             </ul>
             <form className="d-flex" role="search">
