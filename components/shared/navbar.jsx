@@ -4,7 +4,7 @@ import Link from "next/link";
 function Navigationbar() {
   return (
         <nav className="navbar fixed-top navbar-expand-md py-3 backdrop-blur">
-        <div className="container">
+        <div className="container align-items-center">
           <Link className="navbar-brand" href="/">Navbar</Link>
           <button className="navbar-toggler" type="button"  >
             <span className="navbar-toggler-icon"></span>
