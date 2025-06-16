@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 
 const ThemeToggle = () => {
-  // const { theme, toggleTheme } = useAppContext()
-  const theme = 'light' ;
+  const { theme, toggleTheme } = useAppContext()
+
   
   return (
     <div
