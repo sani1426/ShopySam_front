@@ -1,15 +1,16 @@
 'use client'
 
+
+import { useAppContext } from '@/context/AppContext'
 import Image from 'next/image'
 
 
 const ThemeToggle = () => {
   const { theme, toggleTheme } = useAppContext()
-
   
   return (
     <div
-
+      onClick={toggleTheme}
       className={`min-w-[50px] h-[30px] relative flex-between rounded-[50px] cursor-pointer px-1 transition-all ${
         theme === 'light' ? 'bg-sky-200' : 'bg-blue-600'
       }`}
